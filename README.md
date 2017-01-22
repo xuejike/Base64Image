@@ -17,3 +17,8 @@ java  Base64图片处理[![](https://jitpack.io/v/xuejike/Base64Image.svg)](http
 	    <version>v0.1</version>
 	</dependency>
 ```
+```java
+
+  String base64 = Base64Image.getBase64("D:\\index.png");
+        Base64Image.getImage(base64,"D://index.bmp");
+```
