@@ -12,6 +12,7 @@ public class MainTest {
 
     public static void main(String[] param) throws IOException, ImageWriteException, ImageReadException {
         String base64 = Base64Image.getBase64("D:\\index.png");
+        base64="data:image/png;base64,"+base64;
         Base64Image.getImage(base64,"D://index.bmp");
 
     }

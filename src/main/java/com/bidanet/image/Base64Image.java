@@ -26,7 +26,7 @@ public class Base64Image {
         if (base64!=null&&!"".equals(base64)){
             int i = base64.lastIndexOf(",");
             if (i>=0){
-                base64=base64.substring(i);
+                base64=base64.substring(i+1);
             }
             byte[] bytes = Base64.decodeBase64(base64);
 
